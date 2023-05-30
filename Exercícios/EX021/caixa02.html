@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+        header{
+            width:auto;
+            border-color: black;
+            border-style: solid;
+            border-width: 5px;
+            background-color: lightgray;
+            margin: 10px;
+        }
+        
+        main{
+            width:auto;
+            border-color: black;
+            border-style: solid;
+            border-width: 5px;
+            background-color: lightgray;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        nav{
+            text-align: center;
+            background-color: rgb(44, 0, 44);
+            box-shadow: 1px 8px 10px 0px rgba(0, 0, 0, 0.432);
+        }
+        nav > a{
+            color: white;
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        article > h2{
+            margin: 10px;
+            color: black;
+
+        }
+        article > p{
+            margin: 10px;
+        }
+        article > aside{
+            margin: 10px;
+            font-family: serif;
+            background-color: darkgray;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #assuntos{
+            margin: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticas">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus dolorem voluptatum repellendus? Corporis iusto, porro ducimus atque rerum quo officiis eos consectetur, veritatis soluta, qui natus sequi animi sapiente blanditiis!</p>
+                <aside>
+                   <p>Artigo escrito por Vitor Vasconcelos de Melo Pontes</p> 
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>By Vitor</p>
+    </footer>
+</body>
+</html>
